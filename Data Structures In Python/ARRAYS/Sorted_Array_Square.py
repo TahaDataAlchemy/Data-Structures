@@ -8,6 +8,8 @@ def sorted_squared_array(my_array):
   Returns:
     A new list of integers containing the squares of the values in the input array, sorted in ascending order.
   """
+  if len(my_array) == 0:
+    return []
 
   # Square the elements in-place
   for i in range(len(my_array)):
